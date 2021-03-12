@@ -1,0 +1,67 @@
+Maximize: z = 5x1 + 4x2
+Subject to:
+    6x1 + 4x2 <= 24
+    x1 + 2x2 <= 6
+    -x1 + x2 <= 1
+    x2 <= 2
+    x1 >= 0
+    x2 >= 0
+
+Maximize: z = 5x_1 + 10x_2
+Subject to:
+    6x_1 + 4x_2 <= 24
+    x_1 + 2x_2 <= 6
+    -x_1 + x_2 <= 1
+    x_2 <= 2
+    x_1 >= 0
+    x_2 >= 0
+
+Maximize: z = 5x_1 + 4x_2
+Subject to:
+    6x_1 + 4x_2 <= 24
+    x_1 + 2x_2 <= 6
+    -x_1 + x_2 <= 1
+    x_1 >= 5
+    x_2 <= 2
+    x_1 >= 0
+    x_2 >= 0
+    
+Maximize: z = 10x_1 + 8x_2
+Subject to:
+    3x_1 + 2x_2 <= 12
+    2x_1 + 4x_2 <= 12
+    -x_1 + x_2 <= 1
+    2x_2 <= 4
+    x_1 >= 0
+    x_2 >= 0
+
+Minimize: z = 3x_1
+Subject to:
+    5x_1 >= 20
+    2x_1 >= 30
+    x_1 >= 6
+    3x_1 >= 24
+    x_1 >= 0
+
+Maximize: z = 3x_1 + 2x_2
+Subject to:
+    x_1 + 5x_2 <= 20
+    x_1 + 5x_2 <= 10
+    x_1 >= 2
+    x_1 >= 0
+    x_2 >= 0
+
+Maximize: z = 3x_1
+Subject to:
+    5x_1 <= 20
+    x_1 >= 0
+
+Maximize: z = 20x_1 + 10x_2 + 15x_3
+Subject to:
+    3x_1 + 2x_2 + 5x_3 <= 55
+    2x_1 + x_2 + x_3 <= 26
+    x_1	+	x_2	+	3x_3	<=	30
+ 	5x_1	+	2x_2	+	4x_3	<=	57
+    x_3 >= 0
+    x_1 >= 0
+    x_2 >= 0
